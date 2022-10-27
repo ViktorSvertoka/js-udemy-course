@@ -4,6 +4,7 @@ body {
   background-color: white;
   color: #212121;
   font-family: Roboto, sans-serif;
+  font-weight: 400;
   letter-spacing: 0.03em;
 }
 /* цвет основного текста - #212121; */
@@ -22,6 +23,8 @@ body {
   color: #000000;
   font-family: "Raleway";
   text-decoration: none;
+  font-size: 26px;
+  line-height: 1.2;
 }
 
 .logo-blue {
@@ -34,6 +37,9 @@ body {
 
 .site-nav {
   list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
 }
 
 .site-nav .link {
@@ -49,12 +55,15 @@ body {
   list-style: none;
 }
 
-.contact-link {
+.contact-link-header {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
   color: #757575;
 }
 
-.contact-link:hover,
-.contact-link:focus {
+.contact-link-header:hover,
+.contact-link-header:focus {
   color: #2196f3;
 }
 
@@ -69,17 +78,26 @@ body {
 }
 .section-banner-title {
   color: #ffffff;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.37;
+  text-align: center;
 }
 
 .button-banner {
+  cursor: pointer;
   background-color: #2196f3;
   color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
-.button-banner:hover,
+/* .button-banner:hover,
 .button-banner:focus {
-  color: ;
-}
+  background-color: #f5f4fa;
+  color: #212121;
+} */
 
 /* <!-- company advantages --> */
 
@@ -91,11 +109,15 @@ body {
 }
 
 .company-title {
-  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
 }
 
 .company-title-text {
   color: #757575;
+  font-size: 14px;
+  line-height: 1.72;
 }
 
 /* <!-- what does the company do --> */
@@ -104,6 +126,10 @@ body {
 }
 
 .section-works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .works-list {
@@ -117,6 +143,10 @@ body {
 }
 
 .section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 .section-team-list {
@@ -124,9 +154,17 @@ body {
 }
 
 .section-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 
 .section-team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: #757575;
 }
 
 /* окончание мейна */
@@ -140,6 +178,20 @@ body {
 
 .address-list {
   list-style: none;
+  font-size: 14px;
+  line-height: 1.72;
+  color: #ffffff;
+}
+
+.contact-link-footer {
+  font-size: 14px;
+  line-height: 1.72;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact-link-footer:hover,
+.contact-link-footer:focus {
+  color: #2196f3;
 }
 
 /* окончание футера */
@@ -158,8 +210,12 @@ body {
 }
 
 .button-navigation {
+  cursor: pointer;
   background-color: #f5f4fa;
   color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
 }
 
 .button-navigation:hover,
@@ -175,4 +231,16 @@ body {
 
 .gallery-list {
   list-style: none;
+}
+
+.gallery-list-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+
+.gallery-list-text {
+  font-size: 16px;
+  line-height: 1.88;
+  color: #757575;
 }
