@@ -67,12 +67,18 @@ body {
 .section-banner {
   background: #2f303a;
 }
-.section-banne-title {
+.section-banner-title {
   color: #ffffff;
 }
 
 .button-banner {
-  background: #2196f3;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.button-banner:hover,
+.button-banner:focus {
+  color: ;
 }
 
 /* <!-- company advantages --> */
@@ -137,3 +143,36 @@ body {
 }
 
 /* окончание футера */
+
+/* страница портфолио */
+
+/* хедер такой же как у стидии и футер тоже повторно не декорируем */
+
+/* <!--web page filter--> */
+
+.section-navigation {
+}
+
+.button-list {
+  list-style: none;
+}
+
+.button-navigation {
+  background-color: #f5f4fa;
+  color: #212121;
+}
+
+.button-navigation:hover,
+.button-navigation:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+/* <!--gallery--> */
+
+.section-gallery {
+}
+
+.gallery-list {
+  list-style: none;
+}
