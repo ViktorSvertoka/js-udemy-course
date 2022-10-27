@@ -1,0 +1,57 @@
+body {
+  background-color: white;
+  color: #212121;
+}
+/* цвет основного текста - #212121; */
+
+/* вторичный цвет текста - #757575; */
+
+/* белый - #FFFFFF; */
+
+/* акцент - #2196F3; */
+
+/* правило к спискам убирает точки */
+
+/* начало хедера */
+
+.list {
+  list-style: none;
+}
+
+/* цвет логотипа */
+
+.logo {
+  color: #000000;
+}
+
+.logo-blue {
+  color: #2196f3;
+}
+
+/* навигация по сайту */
+
+.site-nav .link {
+  color: #000000;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.contact-link {
+  color: #757575;
+}
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #2196f3;
+}
+
+/* окончание хедара */
+
+/* начало мейна */
+
+.section {
+  color: #212121;
+}
