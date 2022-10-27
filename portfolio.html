@@ -4,7 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Document</title>
   </head>
   <body>
@@ -12,18 +18,18 @@
     <header>
       <nav>
         <!-- site logo-->
-        <a href="index.html" class="logo"
+        <a href="./index.html" class="logo"
           ><span class="logo-blue">Web</span>Studio</a
         >
         <!-- links in site header -->
-        <ul class="site-nav list">
-          <li><a href="index.html" class="link">Студія</a></li>
-          <li><a href="portfolio.html" class="link">Портфоліо</a></li>
+        <ul class="site-nav">
+          <li><a href="./index.html" class="link">Студія</a></li>
+          <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
           <li><a href="" class="link">Контакти</a></li>
         </ul>
       </nav>
       <!-- contacts in header -->
-      <ul class="contacts list">
+      <ul class="contacts">
         <li>
           <a href="mailto:info@devstudio.com" class="contact-link"
             >info@devstudio.com</a
@@ -37,10 +43,10 @@
     <!-- main -->
     <main>
       <!--web page filter-->
-      <section class="section">
+      <section class="section-navigation">
         <h1></h1>
         <div>
-          <ul>
+          <ul class="button-list">
             <li><button type="button">Усі</button></li>
             <li><button type="button">Веб-сайти</button></li>
             <li><button type="button">Додатки</button></li>
@@ -51,9 +57,9 @@
       </section>
 
       <!--gallery-->
-      <section class="section">
+      <section class="section-gallery">
         <div>
-          <ul>
+          <ul class="gallery-list">
             <li>
               <img src="images/gallery1.jpg" alt="Технокряк" width="370" />
               <h2>Технокряк</h2>
@@ -125,12 +131,12 @@
     </main>
     <!-- footer:address/contacts -->
     <footer>
-      <section class="section">
+      <section class="section-address">
         <address>
-          <a href="index.html" class="logo"
+          <a href="./index.html" class="logo"
             ><span class="logo-blue">Web</span>Studio</a
           >
-          <ul>
+          <ul class="address-list">
             <li>м. Київ, пр-т Лесі Українки, 26</li>
             <li>
               <a href="mailto:info@devstudio.com" class="contact-link"

@@ -1,6 +1,10 @@
+/* страница студия */
+
 body {
   background-color: white;
   color: #212121;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
 }
 /* цвет основного текста - #212121; */
 
@@ -10,25 +14,27 @@ body {
 
 /* акцент - #2196F3; */
 
-/* правило к спискам убирает точки */
-
 /* начало хедера */
-
-.list {
-  list-style: none;
-}
 
 /* цвет логотипа */
 
 .logo {
   color: #000000;
+  font-family: "Raleway";
+  text-decoration: none;
 }
 
 .logo-blue {
   color: #2196f3;
+  font-family: "Raleway";
+  text-decoration: none;
 }
 
 /* навигация по сайту */
+
+.site-nav {
+  list-style: none;
+}
 
 .site-nav .link {
   color: #000000;
@@ -37,6 +43,10 @@ body {
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: #2196f3;
+}
+
+.contacts {
+  list-style: none;
 }
 
 .contact-link {
@@ -52,6 +62,78 @@ body {
 
 /* начало мейна */
 
-.section {
+/* <!-- background:banner/picture/video? --> */
+
+.section-banner {
+  background: #2f303a;
+}
+.section-banne-title {
+  color: #ffffff;
+}
+
+.button-banner {
+  background: #2196f3;
+}
+
+/* <!-- company advantages --> */
+
+.section-company {
+}
+
+.company-list {
+  list-style: none;
+}
+
+.company-title {
   color: #212121;
 }
+
+.company-title-text {
+  color: #757575;
+}
+
+/* <!-- what does the company do --> */
+
+.section-works {
+}
+
+.section-works-title {
+}
+
+.works-list {
+  color: #212121;
+  list-style: none;
+}
+
+/* <!-- our team --> */
+
+.section-team {
+}
+
+.section-title {
+}
+
+.section-team-list {
+  list-style: none;
+}
+
+.section-team-title {
+}
+
+.section-team-text {
+}
+
+/* окончание мейна */
+
+/* начало футера */
+
+/* <!-- footer:address/contacts --> */
+
+.section-address {
+}
+
+.address-list {
+  list-style: none;
+}
+
+/* окончание футера */
