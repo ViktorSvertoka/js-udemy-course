@@ -1,4 +1,17 @@
 /* страница студия */
+:root {
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+/* цвет основного текста - #212121; */
+
+/* вторичный цвет текста - #757575; */
+
+/* белый - #FFFFFF; */
+
+/* акцент - #2196F3; */
 
 body {
   background-color: white;
@@ -7,13 +20,6 @@ body {
   font-weight: 400;
   letter-spacing: 0.03em;
 }
-/* цвет основного текста - #212121; */
-
-/* вторичный цвет текста - #757575; */
-
-/* белый - #FFFFFF; */
-
-/* акцент - #2196F3; */
 
 /* начало хедера */
 
@@ -91,6 +97,7 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
+  font-family: Roboto;
 }
 
 /* .button-banner:hover,
@@ -231,6 +238,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
+  font-family: Roboto;
 }
 
 .button-navigation:hover,
