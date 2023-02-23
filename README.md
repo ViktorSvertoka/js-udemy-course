@@ -1,3 +1,5 @@
+**Read in other languages: [Ukrainian](README.md), [English](README.en.md).**
+
 # Домашнє завдання № 2
 
 - Створи репозиторій `goit-markup-hw-02`.
